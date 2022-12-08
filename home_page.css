@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
+.name{
+    font-family: "Asap", sans-serif;
+    color: antiquewhite;
+    position: fixed;
+    right: 39%;
+    bottom: 48%;
+    font-size: x-large;
+}
+.hello_world{
+    font-family: 'Trebuchet MS', sans-serif;
+    position: fixed;
+    right: 45.5%;
+    bottom: 60%;
+    color: darkseagreen;
+}
+.post{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:13px;
+    position: fixed;
+    right: 43.5%;
+    bottom: 42%;
+    color: antiquewhite;
+}
+body{
+    width: 90%;
+    height: 600px;
+    background-image: url(./photos/mainbg.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+.contact{
+    color: antiquewhite;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4,50px);
+    grid-column-gap: 40px;
+    position: fixed;
+    right: 40%;
+    bottom: 3%;
+}
+.nav-bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    border: none;
+    position: fixed;
+    right: 0;
+    left: 0;
+}
+.nav-bar-elm{
+    display: inline;
+    float: left;
+    width: 20%;
+}
+.nav-bar-a{
+    display: block;
+    color:antiquewhite;
+    text-align: center;
+    padding: 16px 16px;
+    font-size: large;
+    text-decoration: none;
+}
+.nav-bar-a:hover {
+    background-color: rgb(39, 30, 30);
+}
